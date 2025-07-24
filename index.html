@@ -119,6 +119,14 @@
   </header>
 
   <nav>
+    <script>
+      function toggleMenu() {
+        const menu = document.getElementById('menu-links');
+        menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+      }
+    </script>
+    <button onclick="toggleMenu()" style="width: 100%; background-color: #FFCC00; color: #003366; font-weight: bold; padding: 10px; border: none; cursor: pointer;">Menú</button>
+    <div id="menu-links" style="display: none;">
     <h2>Secciones</h2>
     <a href="#quienes-somos">¿Quiénes somos?</a>
     <a href="#servicios">Servicios</a>
@@ -130,7 +138,17 @@
     <a href="#foda">Análisis FODA</a>
     <a href="#indicadores">Indicadores</a>
     <a href="#metodologia">Metodología</a>
-  </nav>
+      </div>
+
+    <div style="margin-top: 40px;">
+      <h2>Galería</h2>
+      <div style="width: 100%; overflow: hidden;">
+        <img src="logo-udb.png" alt="Foto 1" style="width: 100%; margin-bottom: 10px;">
+        <img src="logo-udb.png" alt="Foto 2" style="width: 100%; margin-bottom: 10px;">
+        <img src="logo-udb.png" alt="Foto 3" style="width: 100%;">
+      </div>
+    </div>
+</nav>
 
   <main>
     <section id="quienes-somos">
