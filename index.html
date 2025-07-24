@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Editorial UDB</title>
+  <style>
+    :root {
+      --azul-udb: #003366;
+      --amarillo-udb: #FFCC00;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      display: flex;
+      flex-direction: row;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: var(--azul-udb);
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+    }
+
+    header img {
+      height: 60px;
+      margin-bottom: 10px;
+    }
+
+    nav {
+      width: 250px;
+      background-color: var(--azul-udb);
+      color: white;
+      padding: 20px;
+      flex-shrink: 0;
+    }
+
+    nav h2 {
+      color: var(--amarillo-udb);
+      margin-bottom: 15px;
+    }
+
+    nav a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      margin: 10px 0;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: var(--amarillo-udb);
+    }
+
+    main {
+      flex-grow: 1;
+      padding: 30px;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h1, h2 {
+      color: var(--azul-udb);
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      color: var(--amarillo-udb);
+      margin-top: 15px;
+    }
+
+    ul {
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+
+    @media (max-width: 768px) {
+      body {
+        flex-direction: column;
+      }
+
+      nav {
+        width: 100%;
+        height: auto;
+        position: relative;
+      }
+
+      main {
+        padding: 20px;
+      }
+
+      header {
+        padding: 15px;
+      }
+
+      nav h2 {
+        font-size: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo-udb.png" alt="Logo UDB">
+    <h1>Editorial Universidad Don Bosco</h1>
+  </header>
+
+  <nav>
+    <h2>Secciones</h2>
+    <a href="#quienes-somos">¿Quiénes somos?</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#beneficios">Beneficios</a>
+    <a href="#publico">Público Objetivo</a>
+    <a href="#competencia">Competencia</a>
+    <a href="#distribucion">Distribución</a>
+    <a href="#investigacion">Investigación Cultural</a>
+    <a href="#foda">Análisis FODA</a>
+    <a href="#indicadores">Indicadores</a>
+    <a href="#metodologia">Metodología</a>
+  </nav>
+
+  <main>
+    <section id="quienes-somos">
+      <h2>¿Quiénes somos?</h2>
+      <p>La Editorial Universidad Don Bosco busca difundir investigaciones y ofrecer materiales de lectura accesibles y pertinentes para estudiantes y la comunidad académica.</p>
+    </section>
+
+    <section id="servicios">
+      <h2>Servicios</h2>
+      <ul>
+        <li>Publicación de revistas académicas (impresas y digitales)</li>
+        <li>Gestión de colecciones editoriales</li>
+        <li>Administración del portal de revistas UDB</li>
+        <li>Asesoría en procesos editoriales</li>
+      </ul>
+    </section>
+
+    <section id="beneficios">
+      <h2>Beneficios</h2>
+      <ul>
+        <li>Publicación sin costo</li>
+        <li>Precios asequibles</li>
+        <li>Revisión de contenido y apoyo institucional</li>
+      </ul>
+    </section>
+
+    <section id="publico">
+      <h2>Público Objetivo</h2>
+      <p>Principalmente dirigido a estudiantes, docentes, investigadores y lectores interesados en cultura y educación salvadoreña.</p>
+    </section>
+
+    <section id="competencia">
+      <h2>Competencia</h2>
+      <p>Otras editoriales universitarias como UCA, UES, y CIBES enfocadas en cultura e identidad nacional.</p>
+    </section>
+
+    <section id="distribucion">
+      <h2>Distribución</h2>
+      <p>Distribución en ferias, campus universitarios y puntos de venta autorizados por la universidad.</p>
+    </section>
+
+    <section id="investigacion">
+      <h2>Investigación Cultural</h2>
+      <h3>Planteamiento del problema</h3>
+      <p>¿Cómo afecta la falta de actualización cultural a la identidad de marca y conexión con lectores externos?</p>
+
+      <h3>Objetivo general</h3>
+      <p>Analizar cómo los elementos visuales culturales salvadoreños influyen en la percepción de la Editorial UDB.</p>
+
+      <h3>Objetivos específicos</h3>
+      <ul>
+        <li>Evaluar el posicionamiento fuera del ámbito académico</li>
+        <li>Estudiar la percepción de elementos culturales en sus publicaciones</li>
+        <li>Recolectar opiniones para mejorar la conexión cultural</li>
+      </ul>
+
+      <h3>Problema comercial</h3>
+      <p>La editorial es poco reconocida fuera del entorno académico, lo que afecta su sostenibilidad.</p>
+
+      <h3>Perfil del consumidor</h3>
+      <p>Lectores interesados en cultura salvadoreña, diseño atractivo y contenidos accesibles.</p>
+    </section>
+
+    <section id="foda">
+      <h2>Análisis FODA</h2>
+      <h3>Fortalezas</h3>
+      <ul>
+        <li>Apoyo institucional</li>
+        <li>Variedad de publicaciones</li>
+        <li>Precios económicos</li>
+      </ul>
+      <h3>Oportunidades</h3>
+      <ul>
+        <li>Mayor presencia en redes y ferias</li>
+        <li>Alianzas estratégicas</li>
+      </ul>
+      <h3>Debilidades</h3>
+      <ul>
+        <li>Distribución limitada</li>
+        <li>Poca visibilidad del equipo editorial</li>
+        <li>Inversión limitada en diseño</li>
+      </ul>
+      <h3>Amenazas</h3>
+      <ul>
+        <li>Alta competencia universitaria</li>
+        <li>Desinterés estudiantil</li>
+      </ul>
+    </section>
+
+    <section id="indicadores">
+      <h2>Indicadores</h2>
+      <ul>
+        <li>Nivel de conocimiento cultural</li>
+        <li>Frecuencia de lectura</li>
+        <li>Géneros favoritos</li>
+        <li>Compra de libros nacionales vs internacionales</li>
+        <li>Interés por la cultura salvadoreña</li>
+      </ul>
+    </section>
+
+    <section id="metodologia">
+      <h2>Metodología</h2>
+      <p><strong>Enfoque:</strong> Exploratorio cuantitativo.</p>
+      <p><strong>Técnicas:</strong> Encuestas y entrevistas estructuradas.</p>
+      <p><strong>Herramientas:</strong> Cuestionarios y guías de entrevista para conocer percepciones culturales.</p>
+    </section>
+  </main>
+
+</body>
+</html>
